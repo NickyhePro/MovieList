@@ -3,7 +3,7 @@
     Created on : Sep 13, 2018, 6:06:47 PM
     Author     : nickyhe
 --%>
-
+<%@page import="App.User"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,16 +12,18 @@
         <title>Login</title>
     </head>
     
-    <% boolean loginCheck = false; %>
+    <% 
+        String email = (String)request.getAttribute("email");
+        String password = (String)request.getAttribute("password");
+        User user = new User(email, password);
+        boolean loginCheck = false; 
+    %>
     
     <body>
-        <jsp:useBean id="User" class="App.User" scope="session"/>
         <jsp:useBean id="UserBean" class="App.UserBean" scope="session"/>
-        <jsp:setProperty name="User" property="email" />
-        <jsp:setProperty name="User" property="password" />
 
         <%
-            loginCheck = UserBean.login(User);
+            loginCheck = UserBean.login(user);
         %>
 
         <% if (loginCheck == true) { %>

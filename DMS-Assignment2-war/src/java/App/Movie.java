@@ -16,6 +16,18 @@ public class Movie {
     private String type;
     private String directors;
 
+    public Movie(String name, String year, String type, String directors) {
+        this.name = name;
+        this.year = year;
+        this.type = type;
+        this.directors = directors;
+    }
+    
+    public Movie()
+    {
+        
+    }
+
     public String getName() {
         return name;
     }

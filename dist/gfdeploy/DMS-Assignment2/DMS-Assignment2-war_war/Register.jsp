@@ -13,7 +13,7 @@
     </head> 
     <body>
         <h1>Sign up your account below</h1>
-        <form name="Register" action="RegisterResponse.jsp">
+        <form action="RegisterServlet" method="POST">
             Your email:<br>
             <input type="text" name="email" value="Your email..."><br>
             Your password:<br>

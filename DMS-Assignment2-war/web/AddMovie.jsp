@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>Add a new movie below</h1>
-        <form name="Login" action="AddMovieResponse.jsp">
+        <form action="AddMovieServlet" method="POST">
             Name:<br>
             <input type="text" name="name" value=""><br>
             Year:<br>

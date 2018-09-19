@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>Login to your account below</h1>
-        <form name="Login" action="LoginResponse.jsp">
+        <form action="LoginServlet" method="POST">
             Your email:<br>
             <input type="text" name="email" value="Your email..."><br>
             Your password:<br>

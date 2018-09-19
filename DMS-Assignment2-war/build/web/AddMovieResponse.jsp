@@ -3,7 +3,7 @@
     Created on : Sep 13, 2018, 10:49:16 PM
     Author     : nickyhe
 --%>
-
+<%@page import="App.Movie"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,18 +12,20 @@
         <title>Response</title>
     </head>
     
-    <% boolean check = false; %>
+    <% 
+        String name = (String)request.getAttribute("name");
+        String year = (String)request.getAttribute("year");
+        String type = (String)request.getAttribute("type");
+        String directors = (String)request.getAttribute("directors");
+        Movie movie = new Movie(name, year, type, directors);
+        boolean check = false;
+        %>
     
     <body>
-        <jsp:useBean id="Movie" class="App.Movie" scope="session"/>
         <jsp:useBean id="MovieBean" class="App.MovieBean" scope="session"/>
-        <jsp:setProperty name="Movie" property="name" />
-        <jsp:setProperty name="Movie" property="year" />
-        <jsp:setProperty name="Movie" property="type" />
-        <jsp:setProperty name="Movie" property="directors" />
 
         <%
-            check = MovieBean.addMovie(Movie);
+            check = MovieBean.addMovie(movie);
         %>
 
         <% if (check == true) { %>

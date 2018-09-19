@@ -7,10 +7,13 @@
             <file>file:/Users/nickyhe/Projects/NetBeansProjects/DMS-Assignment2/DMS-Assignment2-war/src/java/App/CreateTable.java</file>
             <file>file:/Users/nickyhe/Projects/NetBeansProjects/DMS-Assignment2/DMS-Assignment2-war/web/AddMovie.jsp</file>
             <file>file:/Users/nickyhe/Projects/NetBeansProjects/DMS-Assignment2/DMS-Assignment2-war/web/ViewMovies.jsp</file>
+            <file>file:/Users/nickyhe/Projects/NetBeansProjects/DMS-Assignment2/DMS-Assignment2-war/src/java/Servlets/LoginServlet.java</file>
             <file>file:/Users/nickyhe/Projects/NetBeansProjects/DMS-Assignment2/DMS-Assignment2-war/src/java/App/User.java</file>
             <file>file:/Users/nickyhe/Projects/NetBeansProjects/DMS-Assignment2/DMS-Assignment2-war/src/java/App/UserBean.java</file>
             <file>file:/Users/nickyhe/Projects/NetBeansProjects/DMS-Assignment2/DMS-Assignment2-war/web/Login.jsp</file>
             <file>file:/Users/nickyhe/Projects/NetBeansProjects/DMS-Assignment2/DMS-Assignment2-war/src/java/App/MovieBean.java</file>
+            <file>file:/Users/nickyhe/Projects/NetBeansProjects/DMS-Assignment2/DMS-Assignment2-war/src/java/Servlets/RegisterServlet.java</file>
+            <file>file:/Users/nickyhe/Projects/NetBeansProjects/DMS-Assignment2/DMS-Assignment2-war/src/java/Servlets/AddMovieServlet.java</file>
             <file>file:/Users/nickyhe/Projects/NetBeansProjects/DMS-Assignment2/DMS-Assignment2-war/src/java/App/Movie.java</file>
             <file>file:/Users/nickyhe/Projects/NetBeansProjects/DMS-Assignment2/DMS-Assignment2-war/web/index.html</file>
             <file>file:/Users/nickyhe/Projects/NetBeansProjects/DMS-Assignment2/DMS-Assignment2-war/web/RegisterResponse.jsp</file>
